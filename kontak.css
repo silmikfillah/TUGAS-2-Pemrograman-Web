@@ -1,0 +1,18 @@
+body {
+    color: rgb(139, 189, 190);
+    background-color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid 3px;
+    border-color: rgb(218, 181, 181);
+
+}
+
+.judul {
+    color: rgb(173, 206, 173);
+    font-family: 'Courier New', Courier, monospace;
+}

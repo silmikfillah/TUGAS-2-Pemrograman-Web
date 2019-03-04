@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulir</title>
+    <link href="forms.png" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="kontak.css">
+</head>
+<body>
+    <h1 class="judul">Form Data Diri</h1>
+    <p style="color:ivory; font-family: Lucida Sans">Silahkan isi form di bawah ini dengan baik!</p>
+    <form action="kontak.html" method="get">
+        Nama : 
+        <br>
+        <input type="text" name="nama" style="width: 200px"/>
+        <br/>
+        
+        Jenis Kelamin :
+        <br>
+        <input type="radio" name="jenis_kelamin" value="Laki-Laki" checked/>
+        Laki-Laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan"/>
+        Perempuan
+        </br>
+        
+        Email :
+        <br>
+        <input type="text" name="email" style="width: 200px"/>
+        </br>
+        
+        Alamat :
+        <br>
+        <textarea type="text" name="alamat" style="width: 200px; height:50px"></textarea>
+        </br>
+        
+        Asal Kota :
+        <br>
+        <select name="kota" style="width: 200px">
+            <option>Jakarta</option>
+            <option selected>Surabaya</option>
+            <option>Yogyakarta</option>
+            <option>Semarang</option>
+            <option>Denpasar</option>
+            <option>Padang</option>
+            <option>Lombok</option>
+        </select>
+        </br>
+        
+        Pesan :
+        <br>
+        <textarea name="pesan" rows="5" cols="20" style="width:200px">
+tulis pesan...
+        </textarea>
+        </br>
+        <input type="submit" value="Simpan">
+        <br>
+        </br>
+    </form>
+</body>
+</html>
